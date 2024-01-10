@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Weather app container */
+.weather-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease;
+  background-attachment: fixed;
+  background-color: #ffffff00;
+  background-blend-mode: multiply; /* Add a blending mode */
+}
+
+/* Logo styles */
+.app-logo {
+  width: 75px; /* Increased the logo width */
+  height: auto;
+  margin-right: 10px;
+  vertical-align: middle;
+  background-color: #ffffff00; /* Slightly transparent background */
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* App title styles */
+.app-title {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  color: #000000b2; /* Title color */
+  font-size: 30px; /* Font size of the title */
+}
+
+.input-field {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #0059b9;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Weather information styles */
+.weather-info {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px; /* Add margin to create separation */
+  background-color: #ffffffe6; /* Adjust transparency here */
+  box-shadow: 0 4px 8px 0 #0000001a; /* Add a subtle shadow */
+  max-width: 300px;
+  color: #333; /* Darker text color for better contrast */
+}
+
+/* Title styles */
+.weather-info h2 {
+  margin-bottom: 10px;
+  color: #000; /* Darker title color */
+  font-size: 24px;
+}
+
+/* Details styles */
+.weather-info p {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #555; /* Slightly darker text color */
+}
+
+.weather-city {
+  margin-bottom: 10px;
+  color: #000000;
+  font-size: 24px;
+}
+
+.weather-temp,
+.weather-desc,
+.weather-details {
+  color: #000000;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.weather-desc {
+  text-transform: capitalize;
+}
+
+.weather-icon {
+  width: 50px;
+  height: 50px;
+}
+
+/* City not found message styles */
+.city-not-found {
+  color: #fff; /* Text color */
+  background-color: #ff0000b3; /* Red semi-transparent background */
+  padding: 10px; /* Padding around the message */
+  border-radius: 5px; /* Rounded corners */
+  margin-top: 0px; /* Adjust margin as needed */
+  text-align: center; /* Center align text */
+}
+
+.company-name {
+  margin-top: 0px;
+  padding: 10px;
+  background-color: #000000a5;
+  text-align: center;
+  width: 20%;
+  font-size: 18px;
+  color: #fffefe;
+}
