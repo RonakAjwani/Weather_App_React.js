@@ -12,7 +12,7 @@ const WeatherApp = () => {
   const [backgroundImage, setBackgroundImage] = useState(defaultImage);
   const [cityNotFound, setCityNotFound] = useState(false);
 
-  const API_KEY = '973f4f6e8656b1e2247f33a008e5c235';
+  const API_KEY = 'API Key';
 
   const fetchWeatherByLocation = async () => {
     try {
